@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect App</title>
+    <link rel="stylesheet" href="Connect.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <a href="#" class="logo">
+                <img src="logo-icon.png" alt="Connect Logo" class="logo-icon">
+                <span>Connect</span>
+            </a>
+            <div class="auth-buttons">
+                <button class="login-btn"><i class="icon-login"></i> Login</button>
+                <button class="signup-btn"><i class="icon-signup"></i> Sign Up</button>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What do you need help with?" />
+        </div>
+        <div class="header-info">
+            <div class="header-text">
+                <h2>Find Jobs, Earn On the Go</h2>
+            </div>
+            <div class="header-buttons">
+                <button class="browse-jobs-btn">Browse Jobs</button>
+                <button class="post-job-btn">Post a Job</button>
+            </div>
+            <div class="list-icon">
+                <i class="icon-list"></i>
+                <div class="dropdown-menu">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="get-help-today">
+        <h2>Get Help Today</h2>
+        <div class="frames">
+            <!-- AI generated images (6 frames) -->
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+            <div class="frame"></div>
+        </div>
+        <button class="load-more-btn">Load More</button>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">Step 1: Post a Task</div>
+            <div class="step">Step 2: Get Matched</div>
+            <div class="step">Step 3: Track Progress</div>
+            <div class="step">Step 4: Pay Securely</div>
+        </div>
+    </section>
+
+    <section class="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews">
+            <div class="review">"Great service!"</div>
+            <div class="review">"Quick and easy!"</div>
+            <div class="review">"Highly recommend!"</div>
+        </div>
+    </section>
+
+    <section class="mission-vision">
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>To empower individuals and communities with easy access to local services...</p>
+        </div>
+        <div class="vision">
+            <h2>Our Vision</h2>
+            <p>To become the leading platform for on-demand local services...</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Connect. All rights reserved.</p>
+            <div class="social-icons">
+                <i class="icon-facebook"></i>
+                <i class="icon-twitter"></i>
+                <i class="icon-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

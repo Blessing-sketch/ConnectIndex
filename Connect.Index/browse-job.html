@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Jobs - Connect App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F5E1A2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .job-list-container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .job-list-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .job-card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .job-card:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-card h2 {
+            color: #333;
+        }
+
+        .job-card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .job-card .job-btn {
+            background-color: #FFA500; /* orange */
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .job-card .job-btn:hover {
+            background-color: #FF8C00; /* dark orange */
+        }
+
+        .job-footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .job-footer a {
+            color: #555;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .job-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="job-list-container">
+        <h1>Browse Available Jobs</h1>
+
+        <!-- Job Cards Example -->
+        <div class="job-card">
+            <h2>Web Developer</h2>
+            <p>Location: Nairobi</p>
+            <p>Budget: KES 50,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Graphic Designer</h2>
+            <p>Location: Mombasa</p>
+            <p>Budget: KES 30,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <div class="job-card">
+            <h2>Mobile App Developer</h2>
+            <p>Location: Kisumu</p>
+            <p>Budget: KES 70,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+		
+		<!-- Job 5 -->
+        <div class="job-card">
+            <h3>Data Entry Specialist</h3>
+            <p>Input data into company systems.</p>
+            <p>location: Eldoret, Kenya</p>
+            <p>budget: KES 20,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+		
+        <!-- Job 6 -->
+        <div class="job-card">
+            <h3>Photographer</h3>
+            <p>Capture high-quality photos for events.</p>
+            <p>location:Nairobi, Kenya</p>
+            <p>budget: KES 15,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <!-- Job 7 -->
+        <div class="job-card">
+            <h3>UI/UX Designer</h3>
+            <p>Design intuitive interfaces for web and mobile.</p>
+            <p>location:Mombasa, Kenya</p>
+            <p>budget: KES 60,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <!-- Job 8 -->
+        <div class="job-card">
+            <h3>SEO Expert</h3>
+            <p>Improve website rankings on search engines.</p>
+            <p>location:Kisumu, Kenya</p>
+            <p>budget:KES 35,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <!-- Job 9 -->
+        <div class="job-card">
+            <h3>Video Editor</h3>
+            <p>Edit video content for marketing campaigns.</p>
+            <p>location:Nakuru, Kenya</p>
+            <p>budget:KES 45,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <!-- Job 10 -->
+        <div class="job-card">
+            <h3>Customer Support</h3>
+            <p>Assist customers via phone and email.</p>
+            <p>location: Eldoret, Kenya</p>
+            <p>budget: KES 30,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <!-- Job 11 -->
+        <div class="job-card">
+            <h3>Web Designer</h3>
+            <p>Design and maintain visually appealing websites.</p>
+            <p>location: Nairobi, Kenya</p>
+            <p>budget: KES 50,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+
+        <!-- Job 12 -->
+        <div class="job-card">
+            <h3>App Developer</h3>
+            <p>Develop mobile applications for various platforms.</p>
+            <p>location: Mombasa, Kenya</p>
+            <p>budget: KES 70,000</p>
+            <button class="job-btn">Apply Now</button>
+        </div>
+    </div>
+
+        <!-- End of Job Cards -->
+
+        <div class="job-footer">
+            <p>Want to post a job? <a href="post-job.html">Post a Job</a></p>
+        </div>
+    </div>
+</body>
+</html>
